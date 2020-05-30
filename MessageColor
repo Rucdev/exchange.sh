@@ -1,0 +1,13 @@
+#!/bin/bash
+BGYELLOW230=$(printf "\033[48;5;230m")
+BGYELLOW227=$(printf "\033[48;5;227m")
+RED=$(printf "\033[31m")
+BITBLIGHT=$(printf "\033[38;5;250m")
+
+#MESSAGES
+msg_base="Choice base currency's number."
+msg_aimai="When you forget currency code, enter name of country."
+msg_amounts="How mach money are you trying exchange?"
+msg_more_menu="(if you want to see more, please enter 'M')"
+msg_target="Choice target currency's number for exchange."
+msg_warn=$(printf "Incorrect or nothing input has been detected.\nYou have to start over.")
