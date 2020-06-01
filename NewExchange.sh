@@ -1,6 +1,6 @@
 #!/bin/bash
 #Start
-source kakinosi
+source Function_list
 source MessageColor
 menu="JPY KRW USD EUR"
 ##Base
