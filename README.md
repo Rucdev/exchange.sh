@@ -97,7 +97,7 @@ WebAPIからはJSONファイルで返ってくるため、JSONファイルを扱
 (Java Script Object Notation)
 
 ```json
-{"rates":{"JPY":0.00102, "HKD":0,9309 ....}}
+{"rates":{"JPY":0.00102, "HKD":0,9309}} #etc...
 ```
 
 `curl`コマンドを使ってAPIをたたき最新のレートを取得する。
