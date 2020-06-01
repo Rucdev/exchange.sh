@@ -1,8 +1,10 @@
 #!/bin/bash
-BGYELLOW230=$(printf "\033[48;5;230m")
-BGYELLOW227=$(printf "\033[48;5;227m")
-RED=$(printf "\033[31m")
+BGWHITE=$(printf "\033[48;5;253m")
+BLACK=$(printf "\033[30m")
+RED=$(printf "\033[91m")
 BITBLIGHT=$(printf "\033[38;5;250m")
+BRIGHTMAGENTA=$(printf "\033[95m")
+BRIGHTGREEN=$(printf "\033[92m")
 
 #MESSAGES
 msg_base="Choice base currency's number."
